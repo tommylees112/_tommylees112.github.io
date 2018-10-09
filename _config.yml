@@ -27,8 +27,12 @@ github_username:  tommylees112
 # Build settings
 markdown: kramdown
 theme: minima
+remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
+
+# theme specific settings (swiss)
+theme_color: gray
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
