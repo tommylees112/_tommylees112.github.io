@@ -5,7 +5,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
+# Example:
+#   https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
+# Explanation:
+#   https://mmistakes.github.io/minimal-mistakes/docs/configuration/#html-compression
+
 # ------------------------------------------------------------------------------
 # Theme Settings
 # Review documentation to determine if you should use `theme` or `remote_theme`
@@ -13,7 +17,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # ------------------------------------------------------------------------------
 # Site settings
@@ -134,6 +138,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - ["_pages"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -214,6 +219,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -236,7 +242,16 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: # true
       related: true
+
+# ------------------------------------------------------------------------------
+# Custom Variables
+custom-var1: green
+
+
+
+
+
 
 

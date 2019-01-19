@@ -2,7 +2,7 @@
 layout: single
 title:  "ESA Academy"
 date:   2019-01-16 17:59:25 +0100
-categories: update courses
+categories: learning
 ---
 
 In December I was lucky enough to be selected as one of 30 students from around Europe to attend the first ESA Academy Remote Sensing Workshop.
